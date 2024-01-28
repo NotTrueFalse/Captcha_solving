@@ -2,6 +2,7 @@ from pre_processing import preprocess_image
 import os
 i = 0
 l = len(os.listdir("temp"))
+if not os.path.exists('captcha'):os.mkdir('captcha')
 for img in os.listdir("temp"):
     i += 1
     if img.endswith(".png"):
