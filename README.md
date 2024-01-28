@@ -3,7 +3,7 @@ All about creating a dataset, preprocessing images, and creating an actual model
 <br>
 <br>
 <br>
-# STEP 1 - creation a dataset
+# STEP 1 - creating a dataset
 2 Méthodes : 
 - unzip the captcha.7z archive
 - OR use generator.js to create your own captcha(s)
