@@ -4,7 +4,7 @@ var svg2img = require('svg2img');
 var num = 10000;//desired amount of captcha (10k is very good)
 const FORMAT = 'webp';
 const SIZE = [720, 360];
-const out = './';
+const out = './temp';
 async function generate(){
     // process.stdout.write(`\r${num} left   `);
     var captcha = svgCaptcha.create({
