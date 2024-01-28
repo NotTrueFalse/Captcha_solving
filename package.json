@@ -1,0 +1,17 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "generate captcha to train a model",
+  "main": "gen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ender",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "sharp": "^0.33.2",
+    "svg-captcha": "^1.4.0",
+    "svg2img": "^1.0.0-beta.2"
+  }
+}
