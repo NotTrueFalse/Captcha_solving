@@ -22,7 +22,7 @@ All about creating a dataset, preprocessing images, and creating an actual model
 I based my creation on keras [documentation](https://keras.io/examples/vision/captcha_ocr/)
 ## configuration stuff:
 - first download requirements : `pip install -r requirements.txt`
-This part is pretty complicated, first try to run it and see if it detect any gpu devices (if you have one), if it tells you that you have 0 available gpu and you are on windows,
+- second try to run it and see if it detect any gpu devices (if you have one), if it tells you that you have 0 available gpu and you are on windows,
 I strongly recommand you to use wsl 2 by following tensorflow [tutorial](https://www.tensorflow.org/install/pip)<br><br> ![image](https://github.com/NotTrueFalse/Captcha_solving/assets/122208389/f238564d-583d-47a3-a698-38221c7d2ca5)
 If you are on other platform and don't see any gpus, use tensorflow tutorial as well, I'm not an expert in this kind of situation
 
