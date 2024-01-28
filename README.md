@@ -10,7 +10,7 @@ All about creating a dataset, preprocessing images, and creating an actual model
 
 ## generator.js usage
 - install generator.js dependencies by using `npm install` inside the same directory as package.json
-- change `out = './'` to whatever temporary folder you want. Change `SIZE = [720,360]` to the size you want (its in width,height) and then change the `FORMAT = "webp"` to the format you want.
+- change `out = './temp'` to whatever temporary folder you want. Change `SIZE = [720,360]` to the size you want (its in width,height) and then change the `FORMAT = "webp"` to the format you want.
 - run it : `node generator.js` , wait until its finished generating captcha.
 <br>
 
