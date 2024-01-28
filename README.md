@@ -28,7 +28,7 @@ If you are on other platform and don't see any gpus, use tensorflow tutorial as 
 now we are going to talk about actually running the model:
 - use `python MODEL_CREATION.py` then wait
 - check if there is any problem with the sizen it'll tell you `img_width: [with], img_height: [height], Press Enter to continue...`
-if its the good size (I made it so its resize to be 2 times smaller and does some cropping, so if you have in input a 720, 360 size, you'll see 300 by 100 size) then press enter
+if its the good size (I made it so it resize the image to be 2 times smaller and does some cropping, so if you have in input a 720, 360 size, you'll see 300 by 100 size) then press enter
 if it doesn't fit, try creating an issue and ask me why.
 - if everything is fine, you'll have a popup with image and their labels, if the text doesn't correspond, create an issue.
 - after some wait you'll have a text `Train, Press Enter to continue...`, this is the good part, where all the magic happens, after pressing enter it will train your model, all you have to do is wait until its finished.
