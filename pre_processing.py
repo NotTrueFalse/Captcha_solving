@@ -40,7 +40,7 @@ def preprocess_image(image_path:str,ctype:str='svgcaptcha')->Image.Image:
         new_img = np.zeros((120, 529), dtype=np.uint8)
         new_img.fill(255)
         center_left = (529 - result.shape[1])//2
-        center_top = (120 - result.shape[0])//2#center the image and embed it in a 120x529 image
+        center_top = (120 - result.shape[0])//2#center the image and embed it in a 529x120 image
         new_img[center_top:center_top+result.shape[0], center_left:center_left+result.shape[1]] = result
         return Image.fromarray(new_img)
     elif ctype == 'pythoncaptcha':
