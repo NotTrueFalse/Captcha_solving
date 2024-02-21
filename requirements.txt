@@ -4,3 +4,4 @@ pillow
 matplotlib
 numpy
 pathlib
+opencv-python
