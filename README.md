@@ -15,7 +15,7 @@ All about creating a dataset, preprocessing images, and creating an actual model
 <br>
 
  # STEP 2 - pre-processing images for training
- - install `pillow` using pip, then run process_images by using `python process_images.py` command.
+ - install `opencv-python` using pip, then run process_images by using `python process_images.py` command.
 <br>
 
 # STEP 3 - creation a model
